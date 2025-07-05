@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right top, #e0c3fc, #8ec5fc);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-bg {
+  width: 100%;
+  padding: 50px;
+  background: rgba(0, 229, 255, 0.85);
+  border-radius: 100px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.page-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  background: linear-gradient(to right, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #f8910b;
+  margin-bottom: 30px;
+  font-weight: 500;}
+
+.shortener-form, .stats-viewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 12px;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+}
+
+.submit-btn {
+  background: linear-gradient(to right, #c96cd3, #fe0324);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #b432c3;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.stats-output {
+  text-align: left;
+  background: #6c6262;
+  color: #e74d4d;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
